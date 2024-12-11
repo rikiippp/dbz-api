@@ -26,7 +26,7 @@ cloudinary.config({
 });
 
 // Importar rutas 
-const cardRouter = require('./routes/card.router.js');
+const cardRouter = require('./src/routes/card.router.js');
 
 // Rutas
 app.get('/', (req, res) => {
